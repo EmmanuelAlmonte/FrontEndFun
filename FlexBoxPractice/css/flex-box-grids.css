@@ -1,0 +1,40 @@
+div {
+    padding: 5px;
+}
+
+.grid {
+    display: flex;
+}
+
+.gutters {
+    margin: -10px 0 10px -10px;
+}
+
+.gutters > div {
+    text-align: center;
+}
+
+
+.full {
+    flex-basis: 1;
+}
+
+.half {
+    flex-basis: 50%;
+}
+
+.third {
+    flex-basis: 33.333333%;
+}
+
+.fourth {
+    flex-basis: 25%;
+}
+
+.fifth {
+    flex-basis: 20%;
+}
+
+.sixth {
+    flex-basis: 16.66666%;
+}

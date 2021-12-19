@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <link rel="stylesheet" href="template.css" type="text/css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#welcom">Welcome</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <br>
+    <main>
+        <div id="main-form">
+            <form autocomplete="off">
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="fname"><br>
+
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname">
+                <br>
+                <br>
+                <p class="heading3">Choose your favorite Web Tool</p>
+                <input type="radio" name="fav_language" id="html" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" name="fav_language" id="css" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" name="fav_language" id="javascript" value="JavaScript">
+                <label for="javascript">JavaScript</label><br><br>
+                <input type="checkbox" id="ball1" name="ball1" value="Basketball">
+                <label for="ball1">Basketball</label> <br>
+                <input type="checkbox" name="ball2" id="ball2" value="Soccer Ball">
+                <label for="ball2">Soccer Ball</label><br>
+                <input type="checkbox" name="ball3" id="ball3" value="BaseBall">
+                <label for="ball3">BaseBall</label><br>
+                <label for="colors">Choose a color: </label>
+                <select name="colors" id="colors" multiple> 
+                    <option value="blue">Blue</option>
+                    <option value="black">Black</option>
+                    <option value="red" selected>Red</option>
+                    <option value="yellow">Yellow</option>
+                </select> <br> <br>
+                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment...."></textarea>
+                <input type="submit" value="Submit">
+                <button type="button" onclick="alert('hello Wap')" >Fake Submit</button>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>

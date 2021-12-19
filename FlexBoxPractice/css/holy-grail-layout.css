@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 1000px;
+}
+body .wrap-parent {
+    height: inherit;
+}
+.wrap-parent {
+    height: 100vh;
+    border: 1px solid white;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    padding: 30px;
+}
+.main {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+.wrap-parent header:nth-child(1){
+    align-self: flex-start;
+    flex-basis: 100%;
+}
+
+.wrap-parent main{
+    align-self: center;
+    /* flex-basis: 60%; */
+    height: 80%;
+    flex-grow: 1;
+}
+.wrap-parent main div:nth-child(1){
+    flex: 1 1 20%;
+}
+
+.wrap-parent main div:nth-child(2){
+    flex-basis: 60%;
+}
+
+.wrap-parent main div:nth-child(3){
+    flex: 1 1 20%;
+}
+
+.wrap-parent footer:nth-child(3){
+    align-self: flex-end;
+    flex-basis: 100%;
+    flex-shrink: 1;
+}

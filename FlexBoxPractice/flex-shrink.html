@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Shrink</title>
+    <link rel="stylesheet" href="/FlexBoxPractice 2.0/css/base.css">
+    <link rel="stylesheet" href="/FlexBoxPractice 2.0/css/flex-shrink.css">
+</head>
+
+<body>
+    <h2>Property: <code>flex-shrink</code></h2>
+
+    <p>Default: <code>flex-shrink: 1</code> (flex items are allowed to shrink to some degree</p>
+    <section class="flex-shrink-1 container outlined">
+        <div>flex-shrink: 1</div>
+        <div>flex-shrink: 1</div>
+        <div>flex-shrink: 1</div>
+        <div>flex-shrink: 1</div>
+    </section>
+    <p>3, 4, 5 are no longer allowed to shrink <code>(flex-shrink: 0</code>)</p>
+    <section class="flex-shrink-0 container outlined">
+        <div>flex-shrink: 1</div>
+        <div>flex-shrink: 1</div>
+        <div>flex-shrink: 0</div>
+        <div>flex-shrink: 0</div>
+        <div>flex-shrink: 0</div>
+        <div>flex-shrink: 1</div>
+    </section>
+
+    <p>3, 4 are allowed to shrink more <code>(flex-shrink: 0</code>)</p>
+    <section class="flex-shrink-2 container outlined">
+        <div>flex-shrink: 1</div>
+        <div>flex-shrink: 1</div>
+        <div>flex-shrink: 5</div>
+        <div>flex-shrink: 1</div>
+        <div>flex-shrink: 1</div>
+    </section>
+</body>
+
+</html>

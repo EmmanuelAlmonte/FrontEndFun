@@ -1,0 +1,28 @@
+body {
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-basis-different div:nth-child(1) {
+    flex-basis: 200px;
+
+}
+.flex-basis-different div:nth-child(2) {
+    flex-basis: 300px;
+}
+.flex-basis-different div:nth-child(4) {
+    flex-basis: 100px;
+}
+
+.flex-basis-percent div:nth-child(1){
+    flex-basis: 25%;
+}
+
+
+.flex-basis-percent div:nth-child(4){
+    flex-basis: 50%;
+}

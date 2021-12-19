@@ -1,0 +1,50 @@
+body {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.default-order {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.custom-order {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.custom-order div:nth-child(2){
+    order: -1;
+}
+
+
+.custom-order div:nth-child(3){
+    order: 1;
+}
+
+
+.all-custom-order {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.all-custom-order div:nth-child(1){
+    order: 3;
+}
+
+
+.all-custom-order div:nth-child(2){
+    order: 2;
+}
+
+
+.all-custom-order div:nth-child(3){
+    order: 1;
+}
+
+
+
+.all-custom-order div:nth-child(4){
+    order: 2;
+}

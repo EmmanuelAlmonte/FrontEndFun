@@ -1,0 +1,33 @@
+body {
+    padding: 50px;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.align-self-flex-start div:nth-child(2){
+    align-self: flex-start;
+}
+
+.align-self-flex-end div:nth-child(2) {
+    align-self: flex-end;
+}
+
+.align-self-center div:nth-child(2) {
+    align-self: center;
+}
+
+.align-self-stretch div:nth-child(2) {
+    align-self: stretch;
+}
+
+.align-self-baseline div:nth-child(2),
+.align-self-baseline div:nth-child(3){
+    align-self: baseline;
+}
+
+.align-self-baseline div:nth-child(2) {
+    padding-top: 75px;
+}

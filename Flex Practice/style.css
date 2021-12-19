@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Color Pallette 
+#eaeaea
+#d3d0cb
+#eefc57
+#B75AF9
+
+
+*/
+
+body {
+    /* background-color: #B75AF9;*/
+    height: 100vh;
+    width: 100vw;
+}
+
+/* .container {
+    height: 100%;
+    width: 100%;
+    border: 3px solid blue;
+    padding: 10px;
+    font-size: 20px;
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: row;
+} */
+
+.container .header-nav {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; */
+    border: 3px solid blue;
+}
+
+
+.header-nav nav ul{
+    /* text-decoration: none; */
+    /* list-style-type: none; */
+    border: 2px solid red;
+}
